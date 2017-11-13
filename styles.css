@@ -66,7 +66,7 @@ p.ngtext {
     display: none;
 }
 
-p.ngtext.clicked{
+p.ngtext.show{
     display: block;
 }
 
@@ -136,12 +136,43 @@ p.ngtext.clicked{
     background-blend-mode: multiply;
 }
 
-.notguilty{
-    background-image: url(images/NotGuiltyLifeSentence.jpg);
+.livingsurviving{
+    background-image: url(images/LivingNot_2.png);
+    width: 50vw;
+    height: 28vw;
+}
+
+.blackmirrorbody{
+    background-image: url(images/BlackMirrorBody.png);
     width: 50vw;
     height: 28vw;
 
 }
+
+.police{
+    background-image: url(images/LiberalPolicing.png);
+    width: 50vw;
+    height: 28vw;
+}
+
+.notguilty{
+    background-image: url(images/NotGuiltyLifeSentence.jpg);
+    width: 50vw;
+    height: 28vw;
+}
+
+.capital{
+    background-image: url(images/spirit_of_capital.png);
+    width: 50vw;
+    height: 28vw;
+}
+
+.testojunkie{
+    background-image: url(images/testo_junk_2.png);
+    width: 50vw;
+    height: 28vw;
+}
+
 
 
 
