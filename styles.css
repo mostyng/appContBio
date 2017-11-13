@@ -20,12 +20,16 @@ time, mark, audio, video {
 	font-family: Times New Roman;
 }
 
+@font-face { font-family: TimesNewRomanMTStd-Cond; src: url('TimesNewRomanMTStd-Cond.otf'); } 
+@font-face { font-family: GrotesqueMTStd; src: url('GrotesqueMTStd.otf'); } 
+
+
 body{
 	background: black;
 }
 
 ::-webkit-scrollbar {
-    width: 0px;
+    width: 12px;
 }
  
 /* Track */
@@ -45,12 +49,31 @@ body{
 }
 
 h1{
-	font-size: 36px;
+	font-family: TimesNewRomanMTStd-Cond;
 	text-transform: uppercase;
-	letter-spacing: -1px;
+	font-size: 48px;
+	letter-spacing: -0.5px;
 	text-align: center;
 	display: table-cell;
 	vertical-align: middle;
+
+}
+
+h2{
+	padding-left: 8%;
+    padding-top: 5%;
+    padding-right:8%;
+    font-size: 72px;
+    text-transform: capitalize;
+    text-align: center;
+    font-family: TimesNewRomanMTStd-Cond;
+    letter-spacing: -1px;
+
+}
+
+h3{
+	font-size: 36px;
+	text-align: center;
 
 }
 
@@ -58,17 +81,102 @@ p{
 	padding-left: 8%;
     padding-top: 5%;
     padding-right:8%;
-    padding-bottom: 5%;
+    padding-bottom: 0%;
 	font-size: 36px;
+	line-height: 1.2;
+	letter-spacing: -0.1px;
+	font-family: GrotesqueMTStd;
+
 }
 
-p.ngtext {
+.credit{
+	text-align: center;
+	font-size: 24px;
+	letter-spacing: -0px;
+
+}
+
+.introduction{
+	font-family: TimesNewRomanMTStd-Cond;
+	display: block;
+	font-size: 60px;
+	line-height: 1.1;
+
+
+}
+
+
+.introduction.hide{
+	display: none;
+}
+
+
+
+.lstext {
+    display: none;
+}
+.lstext.show{
+    display: block;
+}
+.lstext.hide {
     display: none;
 }
 
-p.ngtext.show{
+
+.blackmirrortext {
+    display: none;
+}
+.blackmirrortext.show{
     display: block;
 }
+.blackmirrortext.hide {
+    display: none;
+}
+
+
+.policetext {
+    display: none;
+}
+.policetext.show{
+    display: block;
+}
+.policetext.hide {
+    display: none;
+}
+
+
+.ngtext {
+    display: none;
+}
+.ngtext.show{
+    display: block;
+}
+.ngtext.hide {
+    display: none;
+}
+
+
+.capitaltext {
+    display: none;
+}
+.capitaltext.show{
+    display: block;
+}
+.capitaltext.hide {
+    display: none;
+}
+
+
+.testotext {
+    display: none;
+}
+.testotext.show{
+    display: block;
+}
+.testotext.hide {
+    display: none;
+}
+
 
 .zip{
 	width:100%;
@@ -100,7 +208,7 @@ p.ngtext.show{
 	height: 15%;
 	box-sizing: border-box;
 	display:table;
-
+	cursor: pointer;
 	background-color: black;
 	border-bottom: solid 2px white;
 }
@@ -112,10 +220,10 @@ p.ngtext.show{
 	width: 50%;
 	height: 85%;
 	box-sizing: border-box;
-
 	background-color: black;
 	border-right: solid 2px white;
 	overflow-y: scroll;
+	overflow-x: hidden;
 }
 
 
