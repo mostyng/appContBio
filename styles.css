@@ -55,7 +55,10 @@ h1{
 }
 
 p{
-	padding: 5%;
+	padding-left: 8%;
+    padding-top: 5%;
+    padding-right:8%;
+    padding-bottom: 5%;
 	font-size: 36px;
 }
 
@@ -107,20 +110,51 @@ p{
 	overflow-y: scroll;
 }
 
-.story{
-	background-blend-mode: screen;
+
+.illustration{
 	background: red;
-	width: 100px;
-	height: 50px;
-	background-image: url(images/NotGuiltyLifeSentence.jpg);
+	width: 50vw;
+	height: 50vw;
+    position: relative;
+    background-size: 100%, 100%;
+    border-bottom: solid 2px white;
+    background-repeat: no-repeat;
+    background-position: center center; 
+
+
 }
+
+.illustration:hover{
+    background-blend-mode: multiply;
+}
+
+.notguilty{
+    background-image: url(images/NotGuiltyLifeSentence.jpg);
+    width: 50vw;
+    height: 28vw;
+
+}
+
+
+
+
 
 img{
 	width: 100%;
 	height: auto;
+	cursor: pointer;
+    
+}
+
+
+img:hover {
+	width: 100%;
+	height: auto;
 	border-bottom: solid 2px white;
 	cursor: pointer;
+    background-blend-mode: multiply;
 }
+
 
 .text{
 	position: absolute;
