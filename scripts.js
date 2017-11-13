@@ -18,9 +18,12 @@ $(document).ready(function(){
 	  $(".notguilty").css("background-blend-mode", "normal");
 	  $(".capital").css("background-blend-mode", "normal");
 	  $(".testojunkie").css("background-blend-mode", "normal");
+
+	  $(".text").scrollTop(0);
 	});
 
 	$(".livingsurviving").on("click", function(){
+
 	  $(".livingsurviving").css("background-blend-mode", "multiply");
 
 	  $(".blackmirrorbody").css("background-blend-mode", "normal");
@@ -40,6 +43,7 @@ $(document).ready(function(){
 	  $(".capitaltext").hide();
 	  $(".testotext").hide();
 
+	  $(".text").scrollTop(0);
 	});
 
 	$(".blackmirrorbody").on("click", function(){
@@ -59,6 +63,8 @@ $(document).ready(function(){
 	  $(".ngtext").hide();
 	  $(".capitaltext").hide();
 	  $(".testotext").hide();
+
+	  $(".text").scrollTop(0);
 	});
 
 	$(".police").on("click", function(){
@@ -78,6 +84,8 @@ $(document).ready(function(){
 	  $(".ngtext").hide();
 	  $(".capitaltext").hide();
 	  $(".testotext").hide();
+
+	  $(".text").scrollTop(0);
 	});
 
 	$(".notguilty").on("click", function(){
@@ -97,6 +105,8 @@ $(document).ready(function(){
 	  $(".policetext").hide();
 	  $(".capitaltext").hide();
 	  $(".testotext").hide();
+
+	  $(".text").scrollTop(0);
 	});
 
 	$(".capital").on("click", function(){
@@ -116,6 +126,8 @@ $(document).ready(function(){
 	  $(".policetext").hide();
 	  $(".ngtext").hide();
 	  $(".testotext").hide();
+
+	  $(".text").scrollTop(0);
 	});
 
 	$(".testojunkie").on("click", function(){
@@ -135,6 +147,8 @@ $(document).ready(function(){
 	  $(".policetext").hide();
 	  $(".ngtext").hide();
 	  $(".capitaltext").hide();
+
+	  $(".text").scrollTop(0);
 	});
 
 });
