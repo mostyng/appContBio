@@ -34,7 +34,7 @@ body{
  
 /* Track */
 /*::-webkit-scrollbar-track {
-    background: #00ff99; 
+    background: red; 
 }*/
  
 /* Handle */
@@ -97,7 +97,7 @@ p{
 
 }
 
-.c#00ff99it{
+.credit{
 	text-align: center;
 	width: 50%;
 	margin: 0 auto;
@@ -178,7 +178,7 @@ p{
 	left: 0;
 	margin: 0 auto;
 	padding: 0 0;
-	background: #00ff99;
+	background: red;
 	box-sizing: border-box;
 }
 
@@ -197,7 +197,7 @@ p{
 
 
 .title:hover h1{
-	color: #00ff99;
+	color: red;
 	text-decoration: underline;
 }
 
