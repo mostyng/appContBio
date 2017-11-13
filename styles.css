@@ -29,7 +29,7 @@ body{
 }
 
 ::-webkit-scrollbar {
-    width: 12px;
+    width: 8px;
 }
  
 /* Track */
@@ -44,8 +44,8 @@ body{
     background: #FFF; 
 }
 ::-webkit-scrollbar-thumb:window-inactive {
-    background: #FFF;
-    border: solid #000000 1px; 
+    background: #000;
+    border: solid #FFF 1px; 
 }
 
 h1{
@@ -56,12 +56,15 @@ h1{
 	text-align: center;
 	display: table-cell;
 	vertical-align: middle;
+	line-height: 1.1;
 
 }
 
 h2{
+	line-height: 1.1;
+
 	padding-left: 8%;
-    padding-top: 5%;
+    padding-top: 7%;
     padding-right:8%;
     font-size: 72px;
     text-transform: capitalize;
@@ -72,6 +75,12 @@ h2{
 }
 
 h3{
+	padding-top: 5%;
+    font-family: TimesNewRomanMTStd-Cond;
+text-transform: uppercase;
+width: 50%;
+margin: 0 auto;
+line-height: 1.1;
 	font-size: 36px;
 	text-align: center;
 
@@ -79,29 +88,37 @@ h3{
 
 p{
 	padding-left: 8%;
-    padding-top: 5%;
+    padding-top: 3%;
     padding-right:8%;
     padding-bottom: 0%;
 	font-size: 36px;
 	line-height: 1.2;
 	letter-spacing: -0.1px;
-	font-family: GrotesqueMTStd;
 
 }
 
 .credit{
 	text-align: center;
+	width: 50%;
+	margin: 0 auto;
 	font-size: 24px;
+	text-transform: uppercase;
 	letter-spacing: -0px;
+	padding-top: 7%;
+	padding-bottom: 7%;
 
+}
+
+.quote{
+	font-style: italic;
 }
 
 .introduction{
 	font-family: TimesNewRomanMTStd-Cond;
 	display: block;
-	font-size: 60px;
+	font-size: 48px;
 	line-height: 1.1;
-
+	padding-top: 3%;
 
 }
 
@@ -115,21 +132,9 @@ p{
 .lstext {
     display: none;
 }
-.lstext.show{
-    display: block;
-}
-.lstext.hide {
-    display: none;
-}
 
 
 .blackmirrortext {
-    display: none;
-}
-.blackmirrortext.show{
-    display: block;
-}
-.blackmirrortext.hide {
     display: none;
 }
 
@@ -137,21 +142,9 @@ p{
 .policetext {
     display: none;
 }
-.policetext.show{
-    display: block;
-}
-.policetext.hide {
-    display: none;
-}
 
 
 .ngtext {
-    display: none;
-}
-.ngtext.show{
-    display: block;
-}
-.ngtext.hide {
     display: none;
 }
 
@@ -159,23 +152,12 @@ p{
 .capitaltext {
     display: none;
 }
-.capitaltext.show{
-    display: block;
-}
-.capitaltext.hide {
-    display: none;
-}
 
 
 .testotext {
     display: none;
 }
-.testotext.show{
-    display: block;
-}
-.testotext.hide {
-    display: none;
-}
+
 
 
 .zip{
@@ -211,6 +193,12 @@ p{
 	cursor: pointer;
 	background-color: black;
 	border-bottom: solid 2px white;
+}
+
+
+.title:hover h1{
+	color: red;
+	text-decoration: underline;
 }
 
 .images{
@@ -251,7 +239,7 @@ p{
 }
 
 .blackmirrorbody{
-    background-image: url(images/BlackMirrorBody.png);
+    background-image: url(images/BlackMirrorBody.jpg);
     width: 50vw;
     height: 28vw;
 
@@ -312,5 +300,6 @@ img:hover {
 	overflow-y: scroll;
 	height: 85%;
 	background-color: black;
+	padding-bottom: 3%;
 }
 
